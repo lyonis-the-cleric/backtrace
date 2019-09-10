@@ -1,4 +1,8 @@
-Parameters:
+### Installation:
+> go get -t github.com/lyonis-the-cleric/backtrace/
+
+### Parameters:
+
 Function `backtrace.DebugBacktrace` can take limit int parameter (max depth)
 
 ```go
@@ -8,7 +12,7 @@ backtrace.DebugBacktrace()
 ```
 
 
-Usage:
+### Usage:
 
 ```go
 b := backtrace.DebugPrintBacktrace(backtrace.DebugBacktrace())
@@ -16,10 +20,10 @@ b := backtrace.DebugPrintBacktrace(backtrace.DebugBacktrace())
 fmt.Println(b)
 ```
 
-Example output:
+#### Output examples/example.go:
 ```
 File: /home/lyonis/go/src/github.com/lyonis-the-cleric/backtrace/backtrace.go, Function: github.com/lyonis-the-cleric/backtrace.DebugBacktrace, Line: 29 
-File: /home/lyonis/go/src/debug-backtrace/main.go, Function: main.f2, Line: 21 
-File: /home/lyonis/go/src/debug-backtrace/main.go, Function: main.f1, Line: 16 
-File: /home/lyonis/go/src/debug-backtrace/main.go, Function: main.main, Line: 11 
+File: /home/lyonis/go/src/github.com/lyonis-the-cleric/backtrace/examples/example.go, Function: main.f2, Line: 21 
+File: /home/lyonis/go/src/github.com/lyonis-the-cleric/backtrace/examples/example.go, Function: main.f1, Line: 16 
+File: /home/lyonis/go/src/github.com/lyonis-the-cleric/backtrace/examples/example.go, Function: main.main, Line: 11 
 ```
