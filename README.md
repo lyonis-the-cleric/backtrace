@@ -1,5 +1,5 @@
 ### Installation:
-> go get -t github.com/lyonis-the-cleric/backtrace/
+> go get -t github.com/vokial-the-death-knight/backtrace/
 
 ### Parameters:
 
