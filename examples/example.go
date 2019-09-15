@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/lyonis-the-cleric/backtrace"
+	"github.com/vokial-the-death-knight/backtrace"
 )
 
 func main() {
