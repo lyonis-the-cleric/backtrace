@@ -22,8 +22,8 @@ fmt.Println(b)
 
 #### Output examples/example.go:
 ```
-File: /home/lyonis/go/src/github.com/lyonis-the-cleric/backtrace/backtrace.go, Function: github.com/lyonis-the-cleric/backtrace.DebugBacktrace, Line: 29 
-File: /home/lyonis/go/src/github.com/lyonis-the-cleric/backtrace/examples/example.go, Function: main.f2, Line: 21 
-File: /home/lyonis/go/src/github.com/lyonis-the-cleric/backtrace/examples/example.go, Function: main.f1, Line: 16 
-File: /home/lyonis/go/src/github.com/lyonis-the-cleric/backtrace/examples/example.go, Function: main.main, Line: 11 
+File: /home/vokial/go/src/github.com/vokial-the-death-knight/backtrace/backtrace.go, Function: github.com/vokial-the-death-knight/backtrace.DebugBacktrace, Line: 29 
+File: /home/vokial/go/src/github.com/vokial-the-death-knight/backtrace/examples/example.go, Function: main.f2, Line: 21 
+File: /home/vokial/go/src/github.com/vokial-the-death-knight/backtrace/examples/example.go, Function: main.f1, Line: 16 
+File: /home/vokial/go/src/github.com/vokial-the-death-knight/backtrace/examples/example.go, Function: main.main, Line: 11 
 ```
